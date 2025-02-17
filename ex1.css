@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#startBtn {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+#startBtn:hover {
+    background: #27ae60;
+    transform: scale(1.1);
+}
